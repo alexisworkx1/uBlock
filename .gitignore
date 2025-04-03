@@ -5,3 +5,12 @@ node_modules/
 /dist/build/
 /tmp/
 .DS_Store
+# Distribution files
+dist/*.zip
+dist/*.crx
+dist/*.xpi
+# Large third-party assets
+assets/thirdparties/*.txt
+# Documentation media files
+doc/media/*.webm
+doc/media/*.mp4

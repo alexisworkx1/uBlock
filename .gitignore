@@ -9,8 +9,56 @@ node_modules/
 dist/*.zip
 dist/*.crx
 dist/*.xpi
+dist/*.deb
+dist/*.dmg
+dist/*.exe
 # Large third-party assets
 assets/thirdparties/*.txt
+assets/thirdparties/*.json
+assets/thirdparties/*.csv
 # Documentation media files
 doc/media/*.webm
 doc/media/*.mp4
+doc/media/*.gif
+doc/media/*.png
+doc/media/*.jpg
+# Build artifacts
+build/
+out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+# Logs
+logs/
+*.log
+# Environment files
+.env
+*.env.*
+# Coverage files
+coverage/
+*.coverage
+# Temporary files
+*~
+# Cache files
+.cache/
+.npm/
+.yarn-cache/
+# Test files
+*.test.js
+*.spec.js
+# Database files
+*.db
+*.sqlite
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig

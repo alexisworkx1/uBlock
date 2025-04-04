@@ -1,0 +1,6 @@
+dist/*.zip filter=lfs diff=lfs merge=lfs -text
+dist/*.crx filter=lfs diff=lfs merge=lfs -text
+dist/*.xpi filter=lfs diff=lfs merge=lfs -text
+assets/thirdparties/*.txt filter=lfs diff=lfs merge=lfs -text
+doc/media/*.webm filter=lfs diff=lfs merge=lfs -text
+doc/media/*.mp4 filter=lfs diff=lfs merge=lfs -text
